@@ -1,0 +1,252 @@
+
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+li a{
+    color:	#FFFFFF;
+}
+
+.navbar-toggler{
+
+    color:#000000;
+
+}
+
+.navbar-brand a{
+    color:	#FFFFFF;
+}
+
+
+
+.navbar{
+    background-color: #ff3399;
+
+
+}
+
+.welcome{
+    text-align: center;
+
+}
+.im{
+    text-align: center;
+}
+span{
+    color:#ff33cc;
+}
+
+
+
+
+.ban{
+    background-image: url("ban1.jpg");
+    height: auto;
+    width:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.9;
+  background-attachment: fixed;
+}
+.ban:hover{
+    opacity: 1.0;
+}
+.ban1,h1{
+    text-align: center;
+    color:#ff0080;
+    text-align: center;
+    font-size: 30px;;
+    margin:10px;
+}
+
+
+
+
+
+
+.pht{ 
+    width:100%;
+    
+
+    
+    animation: pht 5s 1s ease-in-out;
+
+
+}
+.pht:hover{
+    transform: scale(1);
+}
+@keyframes pht{
+    0%{
+        width:300px;
+
+    }
+    50%{
+        width:600px;
+
+    }
+    100%{
+        width:700px;
+
+    }
+}
+
+.coder{
+    position:fixed;
+    z-index:1;
+    width:100%;
+    
+}
+
+.hello{
+    animation: slider 2s ease forwards;
+    transform: translatex(150px) skew(20deg);
+    
+    opacity: 0;
+
+}
+@keyframes slider{
+    0%{
+        opacity: 0;
+        transform: translatex(150px) skew(20deg);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.img-hover-zoom {
+    height: 250px; 
+    overflow: hidden; 
+  }
+  
+
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  
+  .img-hover-zoom:hover img {
+    transform: scale(1.5);
+  }
+  
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  @media(max-width:320px){
+.text-center {
+ 
+    padding: 10px;
+
+  }
+
+  
+
+.img {
+ 
+    margin: 10px;
+}
+
+.klo{
+ 
+    margin: 10px;
+}
+  }
+  .gal{
+      padding:20px;
+  }
+  
+
+  @media(max-width:375px){
+    .text-center {
+     
+        padding: 10px;
+    
+      }
+    
+      
+    
+    .img {
+     
+        margin: 10px;
+    }
+    
+    .klo{
+     
+        margin: 10px;
+    }
+      }
+
+
+      @media(max-width:425px){
+        .text-center {
+         
+            padding: 10px;
+        
+          }
+        
+          
+        
+        .img {
+         
+            margin: 10px;
+        }
+        
+        .klo{
+         
+            margin: 10px;
+        }
+          }
+          
+      
+          @media(max-width:768px){
+            .klo {
+             
+                padding: 10px;
+            
+              }
+            }
+
+
+            
+          @media(max-width:1024px){
+
+
+            .hello3{
+                padding: 10px;
+            }
+        }
